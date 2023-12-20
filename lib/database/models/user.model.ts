@@ -13,17 +13,17 @@ const userSchema = new Schema({
     unique: true,
   },
 
-  usernane: {
+  username: {
     type: String,
     required: true,
   },
 
-  firstname: {
+  firstName: {
     type: String,
     required: true,
   },
 
-  lastname: {
+  lastName: {
     type: String,
     required: true,
   },
